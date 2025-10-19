@@ -1,0 +1,85 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    color: #34495e;
+}
+
+.cta-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-link:hover {
+    background-color: #2980b9;
+}
+
+.requirements {
+    margin-top: 40px;
+}
+
+.requirements h2 {
+    color: #34495e;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.requirements ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.requirements li {
+    background-color: #fdfdfd;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.requirements h3 {
+    color: #16a085;
+    margin-top: 0;
+}
+
+.requirements strong {
+    color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
